@@ -39,6 +39,22 @@
     #avatar {
         width: 80px;
     }
+
+    .btn {
+        font-weight: 600;
+        border-radius: 8px;
+        font-size: 20px;
+    }
+
+    .btn-perfil {
+        background-color: #32C5D2;
+        color: white;
+    }
+
+    .btn-sair {
+        border: 2px solid #32C5D2;
+        color: #32C5D2;
+    }
 </style>
 
 <body>
@@ -48,18 +64,18 @@
     <main>
         <div class="card m-4">
             <div class="card-body container">
-                <div class="d-flex align-items-center">
-                    <img id="avatar" class="img-fluid" src="imgs/user-circle.svg" alt="">
+                <div class="d-flex align-items-center my-3">
+                    <img id="avatar" class="img-fluid" src="imgs/Perfil.png" alt="">
                     <span class="mx-3">
                         <b>Bem-vinda,</b>
-                        <h3>Maria</h3>
+                        <h2>Maria</h2>
                     </span>
-                    <button class="btn btn-primary mx-2">
+                    <button class="btn btn-perfil mx-2 px-3 py-2">
                         Meu perfil
                     </button>
-                    <button class="btn btn-outline-primary mx-2">Sair</button>
+                    <button class="btn btn-sair mx-2 px-3 py-2">Sair</button>
                 </div>
-                <h3>Dados da Inscrição</h3>
+                <h4 class="my-0">Dados da Inscrição</h4>
             </div>
             <hr>
             </hr>

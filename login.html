@@ -47,16 +47,38 @@
         color: white;
         font-weight: bold;
     }
+
+    .date{
+        font-weight: 600;
+        position: absolute;
+        right: 7%;
+        top: 7%;
+    }
+
+    form{
+        width: 50%;
+    }
+
+    @media screen and (max-width: 600px) {
+        .date{
+            top: 0;
+            right: 0;
+        }
+        .card, form{
+            width: 100% !important;
+        }
+    }
 </style>
 
 <body>
     <header>
         <img class="img-fluid" src="imgs/header-2.png" alt="">
+        <div class="date text-end px-5"></div>
     </header>
     <main class="d-flex justify-content-center">
         <div class="card m-4 w-50">
             <div class="card-body d-flex justify-content-center">
-                <form class="w-50 my-5" onsubmit="">
+                <form class="form my-5" onsubmit="">
                     <div class="mb-3">
                         <label class="form-label">Login</label>
                         <input placeholder="Login" type="email" class="form-control">
@@ -79,5 +101,18 @@
         <img src="imgs/logos.png" alt="" class="img-fluid">
     </footer>
 </body>
+
+<script>
+function format(num) {
+    return ("0" + num).slice(-2);
+}
+
+const d = new Date();
+var time = format(d.getHours()) + ':' + format(d.getMinutes());
+var date = format(d.getDate()) + '/' + format(d.getMonth()) + '/' + d.getFullYear();
+$('.date').append(
+    time + '<br>' + date
+);
+</script>
 
 </html>

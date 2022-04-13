@@ -3,7 +3,6 @@
 body {
     background-color: #eee;
     font-family: 'Bitter', serif;
-    /* min-height: 100vh; */
 }
 
 a {
@@ -61,11 +60,12 @@ form {
     display: none;
 }
 
-/* footer{
-    position: absolute;
-    width: 100vh;
+.position-absolute{
+    width: 100% !important;
     bottom: 0;
-} */
+    left: 0;
+    clear: both;
+}
 
 @media screen and (max-width: 600px) {
     .date {

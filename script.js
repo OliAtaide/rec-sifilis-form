@@ -8,3 +8,5 @@ var date = format(d.getDate()) + '/' + format(d.getMonth()) + '/' + d.getFullYea
 $('.date').append(
     time + '<br>' + date
 );
+
+$('main').css('min-height', $(window).height());

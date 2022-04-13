@@ -13,33 +13,38 @@
         crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.js"
         integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <header>
-        <img class="img-fluid" src="imgs/header-2.png" alt="">
+        <img class="header-mobile img-fluid" src="imgs/header.png" alt="">
+        <img class="header-desktop img-fluid" src="imgs/header-2.png" alt="">
         <div class="date text-end px-5"></div>
     </header>
     <main>
         <div class="card m-4">
             <div class="card-body container">
-                <div class="d-flex align-items-center my-3">
-                    <img id="avatar" class="img-fluid" src="imgs/Perfil.png" alt="">
-                    <span class="mx-3">
-                        <b>Bem-vinda,</b>
-                        <h2>Maria</h2>
-                    </span>
-                    <button class="btn btn-perfil mx-2 px-3 py-2">
-                        Meu perfil
-                    </button>
-                    <button class="btn btn-sair mx-2 px-3 py-2">Sair</button>
+                <div class="perfil-snippet d-flex flex-row align-items-center my-3">
+                    <div class="d-flex align-items-center my-3">
+                        <img id="avatar" class="img-fluid" src="imgs/Perfil.png" alt="">
+                        <span class="mx-3">
+                            <b>Bem-vinda,</b>
+                            <h2>Maria</h2>
+                        </span>
+                    </div>
+                    <div class="d-flex align-items-center my-3">
+                        <button class="btn btn-perfil mx-2 px-3 py-2">
+                            Meu perfil
+                        </button>
+                        <button class="btn btn-sair mx-2 px-3 py-2">Sair</button>
+                    </div>
                 </div>
-                <h4 class="my-0">Dados da Inscrição</h4>
+                <h4 class="dados-titulo my-0">Dados da Inscrição</h4>
             </div>
             <hr>
             </hr>
-            <div class="container">
+            <div class="card-body container">
                 <div class="row">
                     <div class="col">
                         <p><b>Nome completo: </b>Maria da Silva Ferreira</p>

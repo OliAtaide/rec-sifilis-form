@@ -57,6 +57,10 @@ form {
     width: 50%;
 }
 
+.header-mobile{
+    display: none;
+}
+
 /* footer{
     position: absolute;
     width: 100vh;
@@ -65,11 +69,33 @@ form {
 
 @media screen and (max-width: 600px) {
     .date {
-        top: 0;
+        top: 2%;
         right: 0;
+        font-size: 12px;
     }
 
     .card, form {
         width: 100% !important;
+    }
+
+    .card{
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+
+    .dados-titulo{
+        text-align: center;
+    }
+
+    .perfil-snippet{
+        flex-direction: column !important;
+    }
+
+    .header-mobile{
+        display: block;
+    }
+
+    .header-desktop{
+        display: none;
     }
 }

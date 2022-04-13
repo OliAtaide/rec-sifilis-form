@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+
+body {
+    background-color: #eee;
+    font-family: 'Bitter', serif;
+    /* min-height: 100vh; */
+}
+
+a {
+    color: #32C5D2;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+label {
+    font-weight: bold;
+}
+
+input,
+textarea {
+    border-color: black !important;
+}
+
+.row {
+    padding: 1em;
+}
+
+#avatar {
+    width: 80px;
+}
+
+.btn {
+    font-weight: 600;
+    border-radius: 8px;
+    font-size: 20px;
+}
+
+.btn-logar, .btn-perfil {
+    background-color: #32C5D2;
+    color: white;
+    font-weight: bold;
+}
+
+.btn-sair {
+    border: 2px solid #32C5D2;
+    color: #32C5D2;
+}
+
+.date {
+    font-weight: 600;
+    position: absolute;
+    right: 7%;
+    top: 7%;
+}
+
+form {
+    width: 50%;
+}
+
+/* footer{
+    position: absolute;
+    width: 100vh;
+    bottom: 0;
+} */
+
+@media screen and (max-width: 600px) {
+    .date {
+        top: 0;
+        right: 0;
+    }
+
+    .card, form {
+        width: 100% !important;
+    }
+}

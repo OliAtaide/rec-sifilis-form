@@ -56,7 +56,7 @@ var cronograma = [
 
 
 for (let i = 0; i < cronograma.length; i++) {
-    $('table').append(
+    $('.cronograma').append(
         "<tr><td>" + cronograma[i].etapa +
         "</td><td class='text-center'><strong>"
         + cronograma[i].data +

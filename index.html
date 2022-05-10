@@ -39,18 +39,12 @@
     }
 
     .header-img {
-        margin-top: 84px;
+        z-index: -10;
     }
 
     h5 {
         color: #E43A45;
         font-weight: bold;
-    }
-
-    .container {
-        padding-left: 80px !important;
-        padding-right: 80px !important;
-        max-width: none !important;
     }
 
     footer i {
@@ -69,6 +63,92 @@
     th,
     td {
         width: 50%;
+    }
+
+    .info {
+        background-color: #077F40;
+        border-radius: 12px;
+    }
+
+    .info .card {
+        height: 80px;
+        width: 80px;
+    }
+
+    .info h6 {
+        color: white;
+    }
+
+    .descricao {
+        width: 70%;
+    }
+
+    header .container {
+        margin-top: 84px !important;
+        padding-top: 168px;
+        padding-bottom: 168px;
+    }
+
+    header .texto {
+        font-size: 32px;
+        font-weight: 600 !important;
+    }
+
+    header button {
+        font-size: 28px !important;
+        background-color: #32C5D2 !important;
+    }
+
+    .data-ball {
+        min-height: 500px;
+        max-height: 500px;
+        min-width: 500px;
+        max-width: 500px;
+        padding: 1em;
+    }
+
+    .maio .data-ball,
+    .agosto .data-ball {
+        background-color: #32C5D2;
+    }
+
+    .junho .data-ball,
+    .setembro .data-ball {
+        background-color: #F7CA18;
+    }
+
+    .julho .data-ball {
+        background-color: #077F40;
+    }
+
+    .junho,
+    .julho,
+    .agosto {
+        margin-top: -3em;
+        margin-bottom: -3em;
+    }
+
+    .datas {
+        font-size: 20px;
+    }
+
+    .data-ball h1 {
+        font-size: 64px !important;
+        text-align: end;
+        right: 0;
+    }
+
+    .data-ball .img{
+        height: 450px;
+    }
+
+    /* .data-ball img{
+        margin: 5em;
+    } */
+
+    .botao-inscricao {
+        background-color: #32C5D2;
+        width: 300px;
     }
 </style>
 
@@ -103,17 +183,242 @@
                 </div>
             </div>
         </nav>
-        <img class="header-img img-fluid" src="imgs/header-main.png" alt="">
-        <div class="box box-yellow my-3 d-flex align-items-center">
+        <img class="header-img img-fluid position-absolute" src="imgs/header-main.svg" alt="">
+        <!-- <div class="box box-yellow my-3 d-flex align-items-center">
             <div class="container">
                 <span>18 de setembro de 2022</span>
             </div>
         </div>
         <div class="box box-blue my-3">
 
+        </div> -->
+        <div class="container d-sm-flex align-items-center">
+            <div class="logo">
+                <img class="" src="imgs/logo.png" alt="">
+            </div>
+            <div class="texto text-center">
+                <p>
+                    Como a produção audiovisual
+                    pode promover a
+                    saúde no Brasil?
+                </p>
+                <button class="btn w-50 border-2 border-dark">
+                    Inscreva-se
+                </button>
+            </div>
         </div>
     </header>
     <main>
+        <div class="container">
+            <div class="row info">
+                <div class="col">
+                    <div class="d-flex align-items-center">
+                        <div class="card me-3">
+                            <div class="card-body">
+                                <img src="imgs/checked.svg" alt="">
+                            </div>
+                        </div>
+                        <h6>Inscrição gratuita</h6>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="d-flex align-items-center">
+                        <div class="card me-3">
+                            <div class="card-body">
+                                <img src="imgs/trophy.svg" alt="">
+                            </div>
+                        </div>
+                        <h6>
+                            Evento presencial:
+                            <br>
+                            16 a 18 de setembro
+                        </h6>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="d-flex align-items-center">
+                        <div class="card me-3">
+                            <div class="card-body">
+                                <img src="imgs/calendar.svg" alt="">
+                            </div>
+                        </div>
+                        <h6>Cronograma</h6>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="d-flex align-items-center">
+                        <div class="card me-3">
+                            <div class="card-body">
+                                <img src="imgs/file.svg" alt="">
+                            </div>
+                        </div>
+                        <h6>Acesse o edital</h6>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="my-3">
+                    <h5>
+                        O que é o RECSífilis?
+                    </h5>
+                    <div class="card shadow-sm descricao">
+                        <div class="card-body">
+                            <div class="card-text">
+                                Foi pensando em encontrar soluções de comunicação audiovisual para a prevenção e o
+                                enfrentamento
+                                da sífilis no país que o projeto... <a href="">Leia mais</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="my-3">
+                    <h5>
+                        Mas, afinal, o que é um hackathon?
+                    </h5>
+                    <div class="card shadow-sm descricao">
+                        <div class="card-body">
+                            <div class="card-text">
+                                Imagine que você precise resolver um problema e isso precisa ser feito através do uso de
+                                alguma
+                                tecnologia. E ainda, você precisa de... <a href="">Leia mais</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="my-3">
+                    <h5>
+                        Por que Sífilis?
+                    </h5>
+                    <div class="card shadow-sm descricao">
+                        <div class="card-body">
+                            <div class="card-text">
+                                A sífilis é uma infecção sexualmente transmissível (IST) considerada como um problema de
+                                saúde
+                                pública em vários países desen... <a href="">Leia mais</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="my-3">
+                    <h5>
+                        Posso participar?
+                    </h5>
+                    <div class="card shadow-sm descricao">
+                        <div class="card-body">
+                            <div class="card-text">
+                                Para participar basta ser estudante de graduação em qualquer curso da área de
+                                comunicação
+                                social
+                                de instituições de ensino superio... <a href="">Leia mais</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="my-3">
+                    <h5>
+                        Inscrição
+                    </h5>
+                    <div class="card shadow-sm descricao">
+                        <div class="card-body">
+                            <div class="card-text">
+                                As inscrições podem ser ser realizadas através do <a href="">formulário</a>.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="my-3">
+                    <h5>
+                        Regulamento
+                    </h5>
+                    <div class="card shadow-sm descricao">
+                        <div class="card-body">
+                            <div class="card-text">
+                                Acesse o <a href="">regulamento</a>.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="my-3">
+                    <h5>
+                        Contato
+                    </h5>
+                    <div class="card shadow-sm descricao">
+                        <div class="card-body">
+                            <div class="card-text">
+                                Entre em contato pelo e-mail: <a href="">recsifilis@laishuol.ufrn.br</a>.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <h5>Cronograma</h5>
+                <div class="maio d-sm-flex align-items-center">
+                    <div class="position-relative data-ball rounded-circle">
+                        <h1 class="fw-bold position-absolute">MAIO</h1>
+                        <div class="img d-flex flex-column align-items-center justify-content-center">
+                            <img src="imgs/maio.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="mx-5 datas">
+                        <p>02/05 - Divulgação do Edital</p>
+                        <p>02/05 a 02/06 - Inscrições</p>
+                    </div>
+                </div>
+                <div class="junho d-sm-flex align-items-center justify-content-end">
+                    <div class="mx-5 datas">
+                        <p>06 a 30/06 - Veiculação das peças no Instagram</p>
+                    </div>
+                    <div class="position-relative data-ball rounded-circle">
+                        <h1 class="fw-bold position-absolute">JUNHO</h1>
+                        <div class="img d-flex flex-column align-items-center justify-content-center">
+                            <img src="imgs/junho.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="julho d-sm-flex align-items-center">
+                    <div class="position-relative data-ball rounded-circle">
+                        <h1 class="fw-bold position-absolute">JULHO</h1>
+                        <div class="img d-flex flex-column align-items-center justify-content-center">
+                            <img src="imgs/junho.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="mx-5 datas">
+                        <p>01/07 a 16/08 - Avaliação dos vídeos</p>
+                    </div>
+                </div>
+                <div class="agosto d-sm-flex align-items-center justify-content-end">
+                    <div class="mx-5 datas">
+                        <p>21/08 - Divulgação da análise dos vídeos</p>
+                    </div>
+                    <div class="position-relative data-ball rounded-circle">
+                        <h1 class="fw-bold position-absolute">AGOSTO</h1>
+                        <div class="img d-flex flex-column align-items-center justify-content-center">
+                            <img src="imgs/agosto.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="setembro d-sm-flex align-items-center">
+                    <div class="position-relative data-ball rounded-circle">
+                        <h1 class="fw-bold position-absolute">SETEMBRO</h1>
+                        <div class="img d-flex flex-column align-items-center justify-content-center">
+                            <img src="imgs/setembro.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="mx-5 datas">
+                        <p>16 a 18/09 - Evento presencial em Natal/RN para produção de novo vídeo</p>
+                        <p>18/09 - Julgamento dos materiais produzidos na etapa presencial</p>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-5 d-flex justify-content-center">
+                <button class="botao-inscricao btn">
+                    Inscreva-se
+                </button>
+            </div>
+        </div>
+    </main>
+    <!-- <main>
         <div class="container">
             <h5>
                 O que é?
@@ -151,7 +456,7 @@
                 Contato: recsifilis@lais.huol.ufrn.br
             </h5>
         </div>
-    </main>
+    </main> -->
     <footer>
         <img src="imgs/footer-main.png" alt="" class="img-fluid">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">

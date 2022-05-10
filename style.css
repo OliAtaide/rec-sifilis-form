@@ -93,3 +93,123 @@ form {
         display: none;
     }
 }
+
+/* Indez */
+
+.navbar {
+    font-size: 20px;
+    height: 84px;
+}
+
+.header-img {
+    z-index: -10;
+}
+
+h5 {
+    color: #E43A45;
+    font-weight: bold;
+}
+
+footer i {
+    font-size: 30px;
+}
+
+footer nav {
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+footer a {
+    color: #035C8C !important;
+}
+
+th,
+td {
+    width: 50%;
+}
+
+.info {
+    background-color: #077F40;
+    border-radius: 12px;
+}
+
+.info .card {
+    height: 80px;
+    width: 80px;
+}
+
+.info h6 {
+    color: white;
+}
+
+.descricao {
+    width: 70%;
+}
+
+header .container {
+    margin-top: 84px !important;
+    padding-top: 168px;
+    padding-bottom: 168px;
+}
+
+header .texto {
+    font-size: 32px;
+    font-weight: 600 !important;
+}
+
+header button {
+    font-size: 28px !important;
+    background-color: #32C5D2 !important;
+}
+
+.data-ball {
+    min-height: 500px;
+    max-height: 500px;
+    min-width: 500px;
+    max-width: 500px;
+    padding: 1em;
+}
+
+.maio .data-ball,
+.agosto .data-ball {
+    background-color: #32C5D2;
+}
+
+.junho .data-ball,
+.setembro .data-ball {
+    background-color: #F7CA18;
+}
+
+.julho .data-ball {
+    background-color: #077F40;
+}
+
+.junho,
+.julho,
+.agosto {
+    margin-top: -3em;
+    margin-bottom: -3em;
+}
+
+.datas {
+    font-size: 20px;
+}
+
+.data-ball h1 {
+    font-size: 64px !important;
+    text-align: end;
+    right: 0;
+}
+
+.data-ball .img{
+    height: 450px;
+}
+
+/* .data-ball img{
+    margin: 5em;
+} */
+
+.botao-inscricao {
+    background-color: #32C5D2;
+    width: 300px;
+}

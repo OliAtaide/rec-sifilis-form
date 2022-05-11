@@ -63,3 +63,15 @@ for (let i = 0; i < cronograma.length; i++) {
         "</strong></td></tr>"
     )
 }
+
+$('.ler-mais').click(function () {
+    console.log('ok');
+    $(this).prev().removeClass('hidden');
+    $(this).hide();
+})
+
+function scrollar(element) {
+    $([document.documentElement, document.body]).animate({
+        scrollTop: $(element).offset().top - 84
+    }, 100);
+}

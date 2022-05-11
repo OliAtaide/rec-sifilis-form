@@ -246,6 +246,10 @@ header .btn {
         padding-bottom: 0;
     }
 
+    header .container{
+        padding-bottom: 3rem !important;
+    }
+
     header .texto,
     header .btn {
         margin-top: 1em;
@@ -278,10 +282,30 @@ header .btn {
     .datas{
         order: 2;
         margin-top: 1em;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
     }
 
     .data-ball{
         order: 1;
         margin-top: 2em;
+    }
+
+    .data-ball .img{
+        height: 400px !important;
+    }
+
+    .data-ball .img img{
+        width: 70% !important;
+    }
+
+    footer nav{
+        padding: 0 !important;
+        height: 120px !important;
+    }
+
+    footer .container-fluid{
+        flex-flow: column !important;
+        text-align: center !important;
     }
 }

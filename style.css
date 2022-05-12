@@ -291,6 +291,10 @@ header .btn {
         width: 100%;
         height: 750px !important;
     }
+
+    .calendario{
+        width: 100%;
+    }
 }
 
 .swiper {

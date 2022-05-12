@@ -69,15 +69,6 @@ form {
         font-size: 12px;
     }
 
-    /* .card, form {
-        width: 100% !important;
-    }
-
-    .card{
-        margin-left: 0 !important;
-        margin-right: 0 !important;
-    } */
-
     .dados-titulo {
         text-align: center;
     }
@@ -164,8 +155,6 @@ header .btn {
 }
 
 .data-ball {
-    /* min-height: 500px;
-    max-height: 500px; */
     min-width: 500px;
     max-width: 500px;
     padding: 1em;
@@ -185,13 +174,6 @@ header .btn {
     background-color: #077F40;
 }
 
-.junho,
-.julho,
-.agosto {
-    margin-top: -3em;
-    margin-bottom: -3em;
-}
-
 .datas {
     font-size: 20px;
 }
@@ -205,10 +187,6 @@ header .btn {
 .data-ball .img {
     height: 450px;
 }
-
-/* .data-ball img{
-    margin: 5em;
-} */
 
 .botao-inscricao {
     background-color: #32C5D2;
@@ -246,7 +224,7 @@ header .btn {
         padding-bottom: 0;
     }
 
-    header .container{
+    header .container {
         padding-bottom: 3rem !important;
     }
 
@@ -279,33 +257,69 @@ header .btn {
         margin-bottom: 0 !important;
     }
 
-    .datas{
+    .datas {
         order: 2;
         margin-top: 1em;
         margin-left: 0 !important;
         margin-right: 0 !important;
     }
 
-    .data-ball{
+    .data-ball {
         order: 1;
         margin-top: 2em;
     }
 
-    .data-ball .img{
+    .data-ball .img {
         height: 400px !important;
     }
 
-    .data-ball .img img{
+    .data-ball .img img {
         width: 70% !important;
     }
 
-    footer nav{
+    footer nav {
         padding: 0 !important;
         height: 120px !important;
     }
 
-    footer .container-fluid{
+    footer .container-fluid {
         flex-flow: column !important;
         text-align: center !important;
     }
+    
+    .swiper {
+        width: 100%;
+        height: 750px !important;
+    }
+}
+
+.swiper {
+    width: 100%;
+    height: 500px;
+}
+
+.swiper-slide {
+    height: 100% !important;
+    text-align: center;
+    font-size: 18px;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+#cronograma {
+    position: relative;
+    height: 100%;
+    overflow: hidden;
 }

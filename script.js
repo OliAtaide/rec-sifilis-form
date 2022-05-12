@@ -2,6 +2,19 @@ function format(num) {
     return ("0" + num).slice(-2);
 }
 
+var swiper = new Swiper(".mySwiper", {
+    direction: "vertical",
+    pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+    },
+    slidesPerView: 1,
+    navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+    },
+});
+
 const d = new Date();
 var time = format(d.getHours()) + ':' + format(d.getMinutes());
 var date = format(d.getDate()) + '/' + format(d.getMonth()) + '/' + d.getFullYear();

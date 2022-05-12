@@ -8,6 +8,8 @@
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
@@ -275,62 +277,79 @@
             </div>
             <div id="cronograma">
                 <h5>Cronograma</h5>
-                <div class="maio d-flex flex-column flex-sm-row align-items-center">
-                    <div class="data-ball ratio ratio-1x1 rounded-circle">
-                        <h1 class="fw-bold position-absolute">MAIO</h1>
-                        <div class="img d-flex flex-column align-items-center justify-content-center">
-                            <img src="imgs/calendario/maio.svg" alt="">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide d-flex justify-content-start">
+                            <div class="maio d-flex flex-column flex-sm-row align-items-center">
+                                <div class="data-ball ratio ratio-1x1 rounded-circle">
+                                    <h1 class="fw-bold position-absolute">MAIO</h1>
+                                    <div class="img d-flex flex-column align-items-center justify-content-center">
+                                        <img src="imgs/calendario/maio.svg" alt="">
+                                    </div>
+                                </div>
+                                <div class="mx-5 datas">
+                                    <p>02/05 - Divulgação do Edital</p>
+                                    <p>02/05 a 02/06 - Inscrições</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide d-flex justify-content-end">
+                            <div class="junho d-flex flex-column flex-sm-row align-items-center">
+                                <div class="mx-5 datas">
+                                    <p>06 a 30/06 - Veiculação das peças no Instagram</p>
+                                </div>
+                                <div class="ratio ratio-1x1 data-ball rounded-circle">
+                                    <h1 class="fw-bold position-absolute">JUNHO</h1>
+                                    <div class="img d-flex flex-column align-items-center justify-content-center">
+                                        <img src="imgs/calendario/junho.svg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide d-flex justify-content-start">
+                            <div class="julho d-sm-flex align-items-center">
+                                <div class="ratio ratio-1x1 data-ball rounded-circle">
+                                    <h1 class="fw-bold position-absolute">JULHO</h1>
+                                    <div class="img d-flex flex-column align-items-center justify-content-center">
+                                        <img src="imgs/calendario/junho.svg" alt="">
+                                    </div>
+                                </div>
+                                <div class="mx-5 datas">
+                                    <p>01/07 a 16/08 - Avaliação dos vídeos</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide d-flex justify-content-end">
+                            <div class="agosto d-flex flex-column flex-sm-row align-items-center">
+                                <div class="mx-5 datas">
+                                    <p>21/08 - Divulgação da análise dos vídeos</p>
+                                </div>
+                                <div class="ratio ratio-1x1 data-ball rounded-circle">
+                                    <h1 class="fw-bold position-absolute">AGOSTO</h1>
+                                    <div class="img d-flex flex-column align-items-center justify-content-center">
+                                        <img src="imgs/calendario/agosto.svg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide d-flex justify-content-start">
+                            <div class="setembro d-flex flex-column flex-sm-row align-items-center">
+                                <div class="ratio ratio-1x1 data-ball rounded-circle">
+                                    <h1 class="fw-bold position-absolute">SETEMBRO</h1>
+                                    <div class="img d-flex flex-column align-items-center justify-content-center">
+                                        <img src="imgs/calendario/setembro.svg" alt="">
+                                    </div>
+                                </div>
+                                <div class="mx-5 datas">
+                                    <p>16 a 18/09 - Evento presencial em Natal/RN para produção de novo vídeo</p>
+                                    <p>18/09 - Julgamento dos materiais produzidos na etapa presencial</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="mx-5 datas">
-                        <p>02/05 - Divulgação do Edital</p>
-                        <p>02/05 a 02/06 - Inscrições</p>
-                    </div>
-                </div>
-                <div class="junho d-flex flex-column flex-sm-row align-items-center justify-content-end">
-                    <div class="mx-5 datas">
-                        <p>06 a 30/06 - Veiculação das peças no Instagram</p>
-                    </div>
-                    <div class="ratio ratio-1x1 data-ball rounded-circle">
-                        <h1 class="fw-bold position-absolute">JUNHO</h1>
-                        <div class="img d-flex flex-column align-items-center justify-content-center">
-                            <img src="imgs/calendario/junho.svg" alt="">
-                        </div>
-                    </div>
-                </div>
-                <div class="julho d-sm-flex align-items-center">
-                    <div class="ratio ratio-1x1 data-ball rounded-circle">
-                        <h1 class="fw-bold position-absolute">JULHO</h1>
-                        <div class="img d-flex flex-column align-items-center justify-content-center">
-                            <img src="imgs/calendario/junho.svg" alt="">
-                        </div>
-                    </div>
-                    <div class="mx-5 datas">
-                        <p>01/07 a 16/08 - Avaliação dos vídeos</p>
-                    </div>
-                </div>
-                <div class="agosto d-flex flex-column flex-sm-row align-items-center justify-content-end">
-                    <div class="mx-5 datas">
-                        <p>21/08 - Divulgação da análise dos vídeos</p>
-                    </div>
-                    <div class="ratio ratio-1x1 data-ball rounded-circle">
-                        <h1 class="fw-bold position-absolute">AGOSTO</h1>
-                        <div class="img d-flex flex-column align-items-center justify-content-center">
-                            <img src="imgs/calendario/agosto.svg" alt="">
-                        </div>
-                    </div>
-                </div>
-                <div class="setembro d-flex flex-column flex-sm-row align-items-center">
-                    <div class="ratio ratio-1x1 data-ball rounded-circle">
-                        <h1 class="fw-bold position-absolute">SETEMBRO</h1>
-                        <div class="img d-flex flex-column align-items-center justify-content-center">
-                            <img src="imgs/calendario/setembro.svg" alt="">
-                        </div>
-                    </div>
-                    <div class="mx-5 datas">
-                        <p>16 a 18/09 - Evento presencial em Natal/RN para produção de novo vídeo</p>
-                        <p>18/09 - Julgamento dos materiais produzidos na etapa presencial</p>
-                    </div>
+                    <!-- <div class="swiper-pagination"></div> -->
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
                 </div>
             </div>
             <div class="mt-5 d-flex justify-content-center">

@@ -27,30 +27,58 @@ $('main').css('min-height', $(window).height());
 var cronograma = [
     {
         etapa: 'Divulgação do edital',
-        data: '02/05/2022'
+        data: '19/05/2022'
     },
     {
-        etapa: 'Inscrições',
-        data: '02/05/2022 a 02/06/2022'
+        etapa: 'Período de inscrições',
+        data: '23/05/2022 a 23/06/2022'
+    },
+    {
+        etapa: 'Análise das inscrições',
+        data: '24 a 27/06/2022'
+    },
+    {
+        etapa: 'Resultado preliminar das inscrições',
+        data: '28/06/2022'
+    },
+    {
+        etapa: 'Interposição de recursos',
+        data: '29 a 30/06/2022'
+    },
+    {
+        etapa: 'Resultado final das inscrições',
+        data: '01/07/2022'
     },
     {
         etapa: 'Veiculação das peças no Instagram ',
-        data: '06/06/2022 a 30/06/2022'
+        data: '02 a 13/07/2022'
     },
     {
         etapa: 'Avaliação dos vídeos',
-        data: '01/07/2022 a 16/08/2022'
+        data: '14/07/2022 a 18/08/2022'
     },
     {
-        etapa: 'Divulgação da análise dos vídeos',
-        data: '21/08/2022'
+        etapa: 'Divulgação preliminar da análise dos vídeos',
+        data: '19/08/2022'
+    },
+    {
+        etapa: 'Interposição de recursos',
+        data: '20 a 21/08/2022'
+    },
+    {
+        etapa: 'Resultado final da análise dos vídeos',
+        data: '25/08/2022'
     },
     {
         etapa: 'Evento presencial em Natal/RN para produção de novo vídeo',
-        data: '16/09/2022 a 18/09/2022'
+        data: '16 a 18/09/2022'
     },
     {
         etapa: 'Julgamento dos materiais produzidos na etapa presencial',
+        data: '18/09/2022'
+    },
+    {
+        etapa: 'Resultado final do REC Sifilis',
         data: '18/09/2022'
     },
     {

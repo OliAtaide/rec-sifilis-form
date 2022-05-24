@@ -237,7 +237,7 @@ header .btn {
 .premios .col,
 .premios .col .card,
 .premios-titulo {
-    height: 300px !important;
+    height: 300px;
 }
 
 @media screen and (max-width: 600px) {
@@ -356,8 +356,6 @@ header .btn {
 
     .premios-titulo{
         width: 100%;
-        margin-top: 2em;
-        margin-bottom: 1em;
     }
 
     .premios-titulo img{
@@ -372,6 +370,20 @@ header .btn {
 
     .premios .col:not(:first-child, :last-child) .card{
         margin-top: 1em;
+        margin-bottom: 1em;
+    }
+}
+
+@media screen and (max-width: 1400px){
+    .premios .col,
+    .premios .col .card
+    {
+        height: 360px !important;
+    }
+
+    .premios-titulo{
+        height: auto !important;
+        margin-top: 2em;
         margin-bottom: 1em;
     }
 }

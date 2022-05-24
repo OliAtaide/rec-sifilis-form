@@ -61,32 +61,7 @@ form {
     display: none;
 }
 
-
-@media screen and (max-width: 600px) {
-    .date {
-        top: 2%;
-        right: 0;
-        font-size: 12px;
-    }
-
-    .dados-titulo {
-        text-align: center;
-    }
-
-    .perfil-snippet {
-        flex-direction: column !important;
-    }
-
-    .header-mobile {
-        display: block;
-    }
-
-    .header-desktop {
-        display: none;
-    }
-}
-
-/* Indez */
+/* Index */
 
 .navbar {
     font-size: 20px;
@@ -141,7 +116,6 @@ td {
 header .container {
     margin-top: 84px !important;
     padding-top: 168px;
-    padding-bottom: 168px;
 }
 
 header .texto {
@@ -208,7 +182,87 @@ header .btn {
     cursor: pointer;
 }
 
+.swiper {
+    width: 100%;
+    height: 500px;
+}
+
+.swiper-slide {
+    height: 100% !important;
+    text-align: center;
+    font-size: 18px;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+#cronograma {
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+}
+
+
+.premios .card {
+    border: 1px solid black;
+    padding: 24px;
+    text-align: center;
+    border-radius: 1em;
+}
+
+.premios h2 {
+    font-weight: 900;
+    color: #E43A45;
+    margin-top: 0.5em;
+}
+
+.premios p {
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+}
+
+.premios .col,
+.premios .col .card,
+.premios-titulo {
+    height: 300px !important;
+}
+
 @media screen and (max-width: 600px) {
+    .date {
+        top: 2%;
+        right: 0;
+        font-size: 12px;
+    }
+
+    .dados-titulo {
+        text-align: center;
+    }
+
+    .perfil-snippet {
+        flex-direction: column !important;
+    }
+
+    .header-mobile {
+        display: block;
+    }
+
+    .header-desktop {
+        display: none;
+    }
+
     .header-img {
         max-width: 100%;
     }
@@ -286,44 +340,38 @@ header .btn {
         flex-flow: column !important;
         text-align: center !important;
     }
-    
+
     .swiper {
         width: 100%;
         height: 750px !important;
     }
 
-    .calendario{
+    .calendario {
         width: 100%;
     }
-}
 
-.swiper {
-    width: 100%;
-    height: 500px;
-}
+    .premios{
+        margin: 0 !important;
+    }
 
-.swiper-slide {
-    height: 100% !important;
-    text-align: center;
-    font-size: 18px;
+    .premios-titulo{
+        width: 100%;
+        margin-top: 2em;
+        margin-bottom: 1em;
+    }
 
-    /* Center slide text vertically */
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    -webkit-justify-content: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    -webkit-align-items: center;
-    align-items: center;
-}
+    .premios-titulo img{
+        width: 100%;
+    }
 
-#cronograma {
-    position: relative;
-    height: 100%;
-    overflow: hidden;
+    .premios .col,
+    .premios .col .card,
+    .premios-titulo {
+        height: auto !important;
+    }
+
+    .premios .col:not(:first-child, :last-child) .card{
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
 }

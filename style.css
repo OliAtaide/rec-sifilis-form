@@ -356,6 +356,8 @@ header .btn {
 
     .premios-titulo{
         width: 100%;
+        margin-top: 2em;
+        margin-bottom: 1em;
     }
 
     .premios-titulo img{
@@ -374,7 +376,7 @@ header .btn {
     }
 }
 
-@media screen and (max-width: 1400px){
+@media screen and (min-width: 601px) and (max-width: 1400px){
     .premios .col,
     .premios .col .card
     {

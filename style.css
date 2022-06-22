@@ -72,7 +72,7 @@ form {
     z-index: -10;
 }
 
-h5 {
+h5, .modal h1:first-child {
     color: #E43A45;
     font-weight: bold;
 }
@@ -240,6 +240,38 @@ header .btn {
     height: 300px;
 }
 
+.modal-dialog{
+    max-width: 860px !important;
+}
+
+.modal-content {
+    border: 4px solid #077F40;
+    border-radius: 20px;
+    height: 500px;
+    padding: 20px;
+}
+
+.modal a{
+    font-size: 32px;
+}
+
+.modal h1{
+    font-size: 60px;
+}
+
+.modal h2{
+    font-size: 40px;
+}
+
+.modal-header{
+    border: none;
+}
+
+.modal .btn-close{
+    font-size: 30px;
+    color: black;
+}
+
 @media screen and (max-width: 600px) {
     .date {
         top: 2%;
@@ -350,17 +382,17 @@ header .btn {
         width: 100%;
     }
 
-    .premios{
+    .premios {
         margin: 0 !important;
     }
 
-    .premios-titulo{
+    .premios-titulo {
         width: 100%;
         margin-top: 2em;
         margin-bottom: 1em;
     }
 
-    .premios-titulo img{
+    .premios-titulo img {
         width: 100%;
     }
 
@@ -370,20 +402,20 @@ header .btn {
         height: auto !important;
     }
 
-    .premios .col:not(:first-child, :last-child) .card{
+    .premios .col:not(:first-child, :last-child) .card {
         margin-top: 1em;
         margin-bottom: 1em;
     }
 }
 
-@media screen and (min-width: 601px) and (max-width: 1400px){
+@media screen and (min-width: 601px) and (max-width: 1400px) {
+
     .premios .col,
-    .premios .col .card
-    {
+    .premios .col .card {
         height: 360px !important;
     }
 
-    .premios-titulo{
+    .premios-titulo {
         height: auto !important;
         margin-top: 2em;
         margin-bottom: 1em;

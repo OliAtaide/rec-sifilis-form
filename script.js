@@ -2,6 +2,10 @@ function format(num) {
     return ("0" + num).slice(-2);
 }
 
+var myModal = new bootstrap.Modal(document.getElementById('myModal'))
+
+myModal.show();
+
 var swiper = new Swiper(".mySwiper", {
     direction: "vertical",
     pagination: {

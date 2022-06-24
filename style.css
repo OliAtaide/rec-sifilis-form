@@ -396,15 +396,16 @@ header .btn {
         width: 100%;
     }
 
-    .premios .col,
+    
     .premios .col .card,
     .premios-titulo {
-        height: auto !important;
-    }
-
-    .premios .col:not(:first-child, :last-child) .card {
+        height: 100% !important;
         margin-top: 1em;
         margin-bottom: 1em;
+    }
+
+    .premios .col{
+        margin-top: 1em;
     }
 }
 

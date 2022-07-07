@@ -247,8 +247,12 @@ header .btn {
 .modal-content {
     border: 4px solid #077F40;
     border-radius: 20px;
-    height: 500px;
+    height: 600px;
     padding: 20px;
+}
+
+.modal img{
+    width: 50%;
 }
 
 .modal a{
